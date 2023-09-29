@@ -3,7 +3,7 @@ import Logo from '/images/lgw.png'
 
 export default function footer() {
   return (
-    <div class="grid grid-cols-7 justify-between h-347 bg-primary">
+    <div class="grid grid-cols-7 justify-between h-347 bg-primary-100">
       <div class="col-span-2 mt-32 ml-36">
         <img src={Logo} alt="logo"/>
       </div>

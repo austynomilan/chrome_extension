@@ -7,14 +7,22 @@ export default {
   theme: {
     extend: {
       colors:{
-        primary:"#120B48",
+        primary:{
+          100: "#120B48",
+          400: "#413C6D",
+          300: "#605C84"
+        },
         sec: "#1B233D",
-        ter: "#616163"
+        ter: "#616163",
+        input: "#E7E7ED",
+        copy: "#929292",
+        internals: "#4B4B4B"
       },
       fontFamily:{
         def: "Work Sans",
         sora: "Sora",
-        inter: "inter"
+        inter: "inter",
+        manrope: "Manrope"
       },
       spacing:{
         '85':"5.8rem",
@@ -22,7 +30,12 @@ export default {
         '636': "39.75rem",
         '454': "28.38rem",
         '68': "4.25rem",
-        '347': "21.688rem"
+        '347': "21.688rem",
+        '550': "34.375rem",
+        '427': "26.69rem",
+        '75': "4.6875rem",
+        '575': "35.9375rem",
+        '1440': "90rem"
       },
       fontSize: {
         '28l': "1.75rem",

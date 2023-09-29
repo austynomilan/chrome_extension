@@ -3,7 +3,7 @@ import Logo from '/images/HelpMeOut.png';
 
 export default function Nav() {
   return (
-    <div class='flex justify-between pt-6 pb-6 pl-10 pr-10 items-center font-def border-b'>
+    <div class='flex justify-between pt-6 pb-6 pl-16 pr-16 items-center font-def border-b'>
       <div>
         <img src={Logo} alt='' srcset='' />
       </div>

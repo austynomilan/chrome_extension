@@ -7,8 +7,8 @@ import Img3 from '/images/img3.png'
 
 export default function section1() {
   return (
-    <div class="flex items-center mt-14">
-        <div class="ml-14">
+    <div class="flex items-center mt-16 justify-center ">
+        <div class="mr-10">
         <p class="text-4xl font-bold font-sora">
         Show Them <br />
         Don't Just Tell
@@ -17,7 +17,7 @@ export default function section1() {
         Help your friends and loved ones by creating and sending <br />
         videos on how to get things done on a website.
       </p>
-      <div class="flex w-60 border-2 bg-primary text-white h-16 rounded-lg items-center justify-center">
+      <div class="flex w-60 border-2 bg-primary-100 text-white h-16 rounded-lg items-center justify-center">
         <p class="text-lg font-def">Inatall HelpMeOut</p>
         <span>
           <svg
@@ -37,7 +37,7 @@ export default function section1() {
         </span>
       </div>
         </div>
-        <div class="flex ml-9">
+        <div class="flex">
            <div class="relative">
             <img class="w-80 h-52" src={Img1} alt="woman with headset"/>
             <img class="w-80 h-52 mt-8" src={Img2} alt="a Man with son"/>
