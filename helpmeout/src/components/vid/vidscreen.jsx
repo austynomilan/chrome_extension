@@ -1,9 +1,9 @@
 import React from 'react';
 import { FaFacebook, FaWhatsapp, FaTelegram } from 'react-icons/fa';
 
-export default function vidscreen() {
+export default function vidscreen({ toggleSent }) {
   return (
-    <div class="flex justify-around ml-20 w-1440 mr-20 mt-10">
+    <div class='flex justify-around ml-20 w-1440 mr-20 mt-10'>
       <div>
         <p class='text-5xl font-bold font-sora'>Your video is ready!</p>
         <div>
@@ -33,7 +33,7 @@ export default function vidscreen() {
               type='text'
               placeholder='enter email of receiver'
             />
-            <span class='bg-primary-300 cursor-pointer text-white h-11 w-75 items-center flex justify-center rounded-lg text-manrope mr-5'>
+            <span onClick={toggleSent} class='bg-primary-300 cursor-pointer text-white h-11 w-75 items-center flex justify-center rounded-lg text-manrope mr-5'>
               Send
             </span>
           </div>
@@ -86,15 +86,15 @@ export default function vidscreen() {
         </div>
       </div>
       <div>
-        <div class="w-575 h-454 bg-slate-500"></div>
+        <div class='w-575 h-454 bg-slate-500'></div>
         <p>Transcript</p>
         <select name='language'>
           <option value='volvo'>English</option>
           <option value='volvo'>French</option>
         </select>
-        <div class="flex w-575 h-auto">
-          <span class="mr-2 ">0.01</span>
-          <p class="text-base font-medium font-inter">
+        <div class='flex w-575 h-auto'>
+          <span class='mr-2 '>0.01</span>
+          <p class='text-base font-medium font-inter'>
             First step. Open Facebook on your desktop or mobile device and
             locate "Marketplace" in the left-hand menu or at the top of the{' '}
           </p>
