@@ -7,7 +7,7 @@ import Img3 from '/images/img3.png'
 
 export default function section1() {
   return (
-    <div class="flex items-center mt-16 justify-center ">
+    <div class=" md:flex items-center mt-16 justify-center ">
         <div class="mr-10">
         <p class="text-4xl font-bold font-sora">
         Show Them <br />
@@ -37,14 +37,14 @@ export default function section1() {
         </span>
       </div>
         </div>
-        <div class="flex">
+        <div class="mt-10 flex md:mt-3">
            <div class="relative">
-            <img class="w-80 h-52" src={Img1} alt="woman with headset"/>
-            <img class="w-80 h-52 mt-8" src={Img2} alt="a Man with son"/>
+            <img class="w-50 h-32 md:w-80 md:h-52" src={Img1} alt="woman with headset"/>
+            <img class="mt-4 w-50 h-32 md:w-80 md:h-52 md:mt-8" src={Img2} alt="a Man with son"/>
             <img class="absolute w-76 top-235 right-10 -z-10" src={GridColor} alt="grid colors"/>
             </div> 
            <div class="relative">
-           <img class="ml-8" src={Img3} alt="woman with headset"/>
+           <img class="ml-4 h-72 md:ml-8" src={Img3} alt="woman with headset"/>
            <img class="absolute w-76 -top-14 -z-10 -right-12" src={GridGray} alt="gray grid" />
            </div>
         </div>

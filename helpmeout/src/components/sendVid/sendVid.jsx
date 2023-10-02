@@ -1,5 +1,4 @@
 import React from 'react';
-import Kite from '/images/kite.png'
 import { BsFillSendFill } from 'react-icons/bs'
 
 export default function sendVid({ toggleSent }) {

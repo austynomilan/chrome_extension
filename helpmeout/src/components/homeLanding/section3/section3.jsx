@@ -7,7 +7,7 @@ export default function section3() {
       <div>
         <p class="text-center font-sora font-bold text-40l mb-32">How it works</p>
       </div>
-      <div class="flex items-center justify-center">
+      <div class="md:flex items-center justify-center">
         <div class="text-center relative">
          <div class="circle">
          <p class="text-white font-inter text-3xl font-bold">1</p>
@@ -18,7 +18,7 @@ export default function section3() {
             which part <br />
             of your screen to capture and who <br /> you want to send it to.
           </p>
-          <img class="mt-10" src={REC} alt='record' />
+          <img class="mt-10 mb-20 md:mb-0" src={REC} alt='record' />
         </div>
         <div class="text-center relative">
             <div class="circle">
@@ -31,7 +31,7 @@ export default function section3() {
             your video. Simply send it to your <br /> audience via email or copy
             the link <br /> to send via any platform.
           </p>
-          <img class="mt-10" src={REC} alt='record' />
+          <img class="mt-10 mb-20 md:mb-0" src={REC} alt='record' />
         </div>
         <div class="text-center relative">
             <div class="circle">
@@ -45,7 +45,7 @@ export default function section3() {
             link, with our user-friendly interface <br />
             suitable for everyone.
           </p>
-          <img class="mt-10" src={REC} alt='record' />
+          <img class="mt-10 " src={REC} alt='record' />
         </div>
       </div>
     </div>

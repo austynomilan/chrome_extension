@@ -11,8 +11,8 @@ export default function section2() {
         <p class="font-sora font-bold text-4xl">Features</p>
         <p class="font-def text-xl text-gray-500">Key Highlights of Our Extension</p>
       </div>
-      <div class="flex mt-10 items-center justify-around ">
-        <div class="ml-32">
+      <div class=" md:flex md:mt-10 md:items-center md:justify-around ">
+        <div class="md:ml-32">
           <div class="flex mb-14">
             <div>
               <img class="mr-2 w-8 h-8" src={Dot} alt='icon' />
@@ -50,8 +50,8 @@ export default function section2() {
             </div>
           </div>
         </div>
-        <div class="mr-32">
-            <img class="w-636 h-454" src={Repo} alt="screen shot" />
+        <div class="mt-10 p-4 md:p-0 md:mt-0 md:mr-32">
+            <img class=" md:w-636 md:h-454" src={Repo} alt="screen shot" />
         </div>
       </div>
     </div>
